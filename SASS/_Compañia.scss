@@ -1,0 +1,144 @@
+/*Compañia*/
+
+.set{
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    background-image: url(../Multimedia/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -330px;
+}
+
+.nzv ul li{
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px double black;
+    cursor: pointer;
+}
+
+.table {
+   background-color: $colortabla
+    
+}
+
+.x {
+    background-color: $colortabla;
+}
+
+.donde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.as{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 414px) {
+
+    .set{
+        width: 414px;
+        display: inline-block;
+        background-position-y: -110px;
+    }
+
+    .set .bir{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .donde{
+        width: 414px;
+        margin-top: 150px;
+
+    }
+
+  
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+
+    .set {
+        width: 768px;
+        display: inline-block;
+        background-size: 768px;
+        background-position-y: -110px;
+    }
+
+    .set .bir {
+        color: white;
+    }
+
+    .nzv ul li {
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
+    .set {
+        width: 1280px;
+        display: inline-block;
+        background-size: 1280px;
+    }
+
+    .set .bir {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nzv ul li {
+        margin-left: 160px;
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 1339px) and (max-width: 1440px) {
+    .set{
+        width: 1440px;
+        display: inline-block;
+        background-size: 1440px;
+    }
+
+    .set .bir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .nzv ul li {
+        margin-left: 210px;
+        margin-top: 40px;
+    }
+
+    
+}
+
+@media screen and (min-width: 1900px){
+    .set{
+        width: 1900px;
+        display: inline-block;
+        background-position-y: -550px;
+    }
+
+    .set .bir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nzv ul li {
+        margin-left: 290px;
+        margin-top: 40px;
+    }
+    
+}

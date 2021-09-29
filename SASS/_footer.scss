@@ -1,0 +1,36 @@
+/*Pie*/
+
+.fot{
+    background-color: lightblue;
+    &__p{
+        display: inline-block;
+        font-family: 'Hina Mincho', serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 414px) {
+ 
+    .fot{
+        width: 414px;
+    }
+
+    .fot__p{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+
+    #Area {
+        margin-left: 140px;
+    }
+
+
+}

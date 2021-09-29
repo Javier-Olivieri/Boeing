@@ -1,0 +1,420 @@
+/*Pedidos*/
+
+.ser {
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+    background-image: url(../Multimedia/cockpit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+}
+
+.ntv ul li{
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px double black;
+    cursor: pointer;
+}
+
+.yatusa{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.gti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.re{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+
+@keyframes Cont {
+    0% {
+        background-image:url(../Multimedia/Boeing-737-Max.jpg); 
+        background-size: cover;
+        
+    }
+
+    51%{
+        background-image: url(../Multimedia/747-8.jpg);
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url(../Multimedia/777.jpg);
+        background-size: cover;
+    }
+    
+}
+    
+    @keyframes Con {
+        0%{
+            background-image:url(../Multimedia/cockpit.jpg);
+            background-size: cover;
+        }
+
+        51%{
+            background-image: url(../Multimedia/777x.jpg);
+            background-size: cover;
+        }
+
+        100%{
+            background-image: url(../Multimedia/787.jpg);
+            background-size: cover;
+        }
+        
+    }
+
+.cuadro {
+    margin-top: 120px;
+    height: 300px;
+    width: 500px;
+    animation-name: Cont;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: ease-in;
+    &__lluvia{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+    }
+}
+
+.cuadros {
+    margin-top: 120px;
+    height: 300px;
+    width: 500px;
+    animation-name: Con;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: ease-in;
+    &__lluvia{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+      
+    }
+
+}
+
+.redesSociales  i {
+    color: orangered;
+   
+    
+}
+
+.eee{
+    color: white;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+    background-color: black;
+    letter-spacing: 10px;
+    
+
+}
+
+#Nombre{
+    display: flex;
+    margin-left: 180px;
+    margin-top: -39px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 3s;
+    background-image: url(../Multimedia/cielo.jpg);
+}
+
+#Nombre:focus{
+    height: 60px;
+    width: 200px;
+}
+
+#CUIT:focus{
+    height: 60px;
+    width: 200px;
+}
+
+#whatsapp:focus{
+    height: 60px;
+    width: 200px;
+}
+
+#Nombrer:focus{
+    height: 60px;
+    width: 200px;
+}
+
+#Conti:focus{
+    height: 60px;
+    width: 200px;
+}
+
+#Area:focus {
+    height: 60px;
+    width: 200px;
+}
+.af {
+    background-color: lightblue;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 60px;
+
+}
+
+#CUIT{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -39px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 3s;
+    background-image: url(../Multimedia/cielo.jpg);
+}
+
+#whatsapp {
+    display: flex;
+    margin-left: 180px;
+    margin-top: -39px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 3s;
+    background-image: url(../Multimedia/cielo.jpg);
+}
+
+#Nombrer{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -39px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 3s;
+    background-image: url(../Multimedia/cielo.jpg);
+}
+
+#Conti {
+    display: flex;
+    margin-left: 220px;
+    margin-top: -39px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 3s;
+    background-image: url(../Multimedia/cielo.jpg);
+}
+
+#Area{
+    display: flex;
+    margin-left: 400px;
+    margin-top: -39px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 3s;
+    background-image: url(../Multimedia/cielo.jpg);
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.ewe{
+    display: inline-block;
+    background-color: $color;
+    margin-left: 180px;
+}
+
+.ssss{
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 414px) {
+    .ser {
+        display: inline-block;
+        width: 414px;
+        background-position-y: -55px;
+        background-size: 414px;
+    }
+
+    .ser .bir{
+         color: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+}
+
+.ntv ul li {
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.gti{
+    width: 414px;
+}
+
+.re{
+  font-size: 30px;
+}
+
+.yatusa{
+    display: inline-block;
+    width: 414px;
+}
+
+.cuadro{
+    width: 414px;
+}
+
+.cuadros{
+    width: 414px;
+}
+
+.cuadro__lluvia{
+    margin-left: -10px;
+}
+
+.cuadros__lluvia{
+    margin-left: -10px;
+}
+
+.ewe{
+    margin-left: 145px;
+
+}
+
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+
+    .ser{
+        width: 768px;
+        display: inline-block;
+    }
+
+    .ntv ul li {
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    .ser .bir {
+        color: white;
+    }
+
+    .gti{
+        width: 768px;
+    }
+
+    .re{
+        font-size: 60px;
+    }
+
+    .yatusa{
+        display: inline-block;
+    }
+    
+    .cuadro{
+        margin-left: 130px;
+    }
+
+    .cuadros{
+        margin-left: 130px;
+    }
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
+
+    .ser{
+        width: 1280px;
+        display: inline-block;
+        background-size: 1280px;
+    }
+
+    .ser .bir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .ntv ul li {
+        margin-left: 160px;
+        margin-top: 40px;
+    }
+
+    .gti{
+        width: 1280px;
+    }
+
+    .re{
+        font-size: 70px;
+    }
+
+    .yatusa{
+        display: inline-block;
+        width: 1280px;
+    }
+
+
+}
+
+@media screen  and (min-width: 1339px) and (max-width: 1440px) {
+    .ser{
+        width: 1440px;
+        display: inline-block;
+        background-size: 1440px;
+
+    }
+
+    .ser .bir {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .ntv ul li {
+        margin-left: 210px;
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 1900px) {
+    .ser {
+        width: 1900px;
+        display: inline-block;
+        background-position-y: -300px;
+    }
+
+    .ser .bir {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .ntv ul li {
+        margin-left: 290px;
+        margin-top: 40px;
+    }
+    
+}

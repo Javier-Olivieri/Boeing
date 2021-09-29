@@ -1,0 +1,202 @@
+/*Modelos*/
+
+.sepo{
+    display: flex;
+    height: 380px;
+    justify-content: space-between;
+    background-image: url(../Multimedia/modelos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.nev ul li{
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px double black;
+    cursor: pointer;
+}
+
+.ypd {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    
+}
+
+.ypp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+
+}
+
+.ypf{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.card img{
+    height: 150px;
+}
+.card{
+    &-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+.card {
+    &-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Concert One', cursive;
+        
+     
+    }
+}
+
+.card {
+    &-body{
+        background-color: $backgroundbody;
+    }
+}
+
+.yape{
+    background-image: url(../Multimedia/cielo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modelosh{
+    background-color: $backgroundbody;
+    &__comerc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Redressed', cursive;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .sepo{
+        width: 414px;
+        display: inline-block;
+        background-size: 414px;
+    }
+
+     .sepo .bir {
+         display: flex;
+         justify-content: center;
+           
+    }
+
+    .nev ul li {
+      margin-left: -5px;
+      margin-top: 40px;
+    }
+
+    .modelosh{
+        width: 414px;
+    }
+
+    .modelosh__comerc{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -150px;
+    }
+   
+    .ypf{
+        width: 414px;
+    }
+    .ypp{
+        width: 414px;
+    }
+    
+    .ypd{
+        width: 414px;
+    }
+   
+    .yape{
+        background-color: $colorbody;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+    .sepo {
+        width: 768px;
+        display: inline-block;
+        background-size: 768px;
+    }
+
+    .nev ul li {
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
+    .sepo{
+        width: 1280px;
+        display: inline-block;
+    }
+
+    .sepo .bir {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nev ul li {
+        margin-left: 170px;
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 1339px) and (max-width: 1440px) {
+
+    .sepo{
+        width: 1440px;
+        display: inline-block;
+        background-size: 1440px;
+    }
+
+    .sepo .bir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nev ul li {
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .sepo {
+        width: 1900px;
+        display: inline-block;
+        background-position-y: -100px;
+    }
+
+    .sepo .bir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nev ul li {
+        margin-left: 300px;
+        margin-top: 40px;
+    }
+    
+}
