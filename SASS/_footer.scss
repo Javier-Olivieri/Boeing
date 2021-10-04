@@ -14,23 +14,20 @@
 
 
 
-@media screen and (max-width: 414px) {
- 
-    .fot{
-        width: 414px;
-    }
+@media screen and (max-width: 767px) {
+      .fot {
+          display: inline-block;
+          width: 100%;
+      }
+       
 
-    .fot__p{
-   
+    .fot__p {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 17px;
+      justify-content: center;
+      align-items: center;
+      font-size: 13px;
     }
+   
 
-    #Area {
-        margin-left: 140px;
-    }
-
-
+    
 }

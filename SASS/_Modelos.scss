@@ -82,121 +82,45 @@
     }
 }
 
-@media screen and (max-width: 414px) {
-    .sepo{
-        width: 414px;
-        display: inline-block;
-        background-size: 414px;
-    }
+@media screen and (max-width: 767px) {
 
-     .sepo .bir {
-         display: flex;
-         justify-content: center;
-           
+    .sepo {
+        display: flex;
+        width: 100%;
+        background-size: 100%;
+        height: auto;
     }
 
     .nev ul li {
-      margin-left: -5px;
-      margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: orange;
     }
 
-    .modelosh{
-        width: 414px;
+    .modelosh {
+        width: 100%;
     }
 
     .modelosh__comerc{
-        font-size: 35px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -150px;
-    }
-   
-    .ypf{
-        width: 414px;
-    }
-    .ypp{
-        width: 414px;
-    }
-    
-    .ypd{
-        width: 414px;
-    }
-   
-    .yape{
-        background-color: $colorbody;
+        font-size: 10px;
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .sepo {
-        width: 768px;
-        display: inline-block;
-        background-size: 768px;
-    }
-
-    .nev ul li {
-        margin-left: 65px;
-        margin-top: 30px;
-    }
-    
-}
-
-@media screen and (min-width: 1279px) and (max-width: 1280px) {
-    .sepo{
-        width: 1280px;
-        display: inline-block;
-    }
-
-    .sepo .bir {
         display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nev ul li {
-        margin-left: 170px;
-        margin-top: 40px;
+        width: 100%;
+        background-size: 100%;
+     
     }
     
-}
-
-@media screen and (min-width: 1339px) and (max-width: 1440px) {
-
-    .sepo{
-        width: 1440px;
+    .nev ul li {
         display: inline-block;
-        background-size: 1440px;
+        background-color: orange;
     }
-
-    .sepo .bir{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .nev ul li {
-        margin-left: 200px;
-        margin-top: 40px;
-    }
-}
-
-@media screen and (min-width: 1900px) {
-    .sepo {
-        width: 1900px;
-        display: inline-block;
-        background-position-y: -100px;
-    }
-
-    .sepo .bir{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nev ul li {
-        margin-left: 300px;
-        margin-top: 40px;
-    }
-    
 }

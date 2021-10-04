@@ -46,137 +46,73 @@
     }
   
 
-    @media screen and (max-width: 414px) {
+  @media screen and (max-width: 767px) {
 
-        .ddd{
-            background-color: $colorbody;
-        }
+    .sez {
+        display: flex;
+        width: 100%;
+        background-size: 100%;
+        height: auto;
+        background-position-y: -100px;
 
-        .sez{
-            display: inline-block;
-            width: 414px;
-            background-position-y: -50px;
-             background-size: 414px;
-        }
+    }
 
-        .sez .bir{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .xui {
+        width: 100%;
+    }
 
-        .nsv ul li {
-            margin-left: -5px;
-            margin-top: 30px;
-        }
+    .xui__dd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
 
-        .xui {
-            width: 414px;
-        }
-
-        .xui__dd{
-            font-size: 20px;
-        }
-
-        .ccc{
-            width: 414px;
-        }
-
-        .card-text{
-            font-size: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .ccc {
+        width: 100%;
         
     }
 
-    @media screen and (min-width: 767px) and (max-width: 768px) {
-
-        .sez{
-            width: 768px;
-            display: inline-block;
-            background-size: 768px;
-            background-position-y: -60px;
-        }
-
-        .nsv ul li {
-            margin-left: 65px;
-            margin-top: 35px;
-        }
-
-        .xui{
-            width: 768px;
-        }
-
-        .xui__dd{
-            font-size: 35px;
-            margin-top: 20px;
-        }
-        
+    .cards img {
+        height: 80%;
     }
 
-    @media screen and (min-width: 1279px) and (max-width: 1280px) {
-
-        .sez{
-            width: 1280px;
-            display: inline-block;
-            background-size: 1280px;
-        }
-
-        .sez .bir {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-        }
-
-        .nsv ul li {
-            margin-left: 160px;
-            margin-top: 40px;
-        }
-        
-    }
-    @media screen and (min-width: 1339px) and (max-width: 1440px) {
-        .sez{
-            width: 1440px;
-            display: inline-block;
-        }
-
-        .sez .bir{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .nsv ul li {
-            margin-left: 200px;
-            margin-top: 40px;
-        }
+    .card-text {
+       font-size: 10px;
     }
 
-    @media screen and (min-width: 1900px) {
-
-        .sez{
-            width: 1900px;
-            display: inline-block;
-            background-size: 1900px;
-            background-position-y: -400px;
-        }
-
-        .sez .bir {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .nsv ul li {
-            margin-left: 280px;
-            margin-top: 40px;
-        }
-
-        .ccc{
-            display: flex;
-            justify-content: center;
-        }
+    .nsv ul li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: orange;
     }
+      
+  }
+
+  @media screen and (min-width: 768px) {
+      .sez {
+          display: flex;
+          width: 100%;
+          background-size: 100%;
+          background-position-y: -120px;
+          background-position-x: auto;
+      }
+    
+      .nsv ul li {
+          background-color: orange;
+      }
+
+      .xui {
+          width: 100%;
+      }
+
+      .xui__dd{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 25px;
+      }
+      
+  }
