@@ -133,7 +133,6 @@ li.naus:hover ul.sub {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: auto;
   }
   .nuv ul li {
     display: -webkit-box;
@@ -292,7 +291,6 @@ li.naus:hover ul.sub {
     display: flex;
     width: 100%;
     background-position-y: -40px;
-    height: 100%;
   }
   .nzv ul li {
     display: -webkit-box;
